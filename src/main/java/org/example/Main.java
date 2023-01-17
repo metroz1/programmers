@@ -13,8 +13,11 @@ public class Main {
 //        skillCheckTestLevel1.solution5(arr);
 
 
-        StringSplit stringSplit = new StringSplit();
-        String s = "banana";
-        System.out.println(stringSplit.solution(s));
+//        StringSplit stringSplit = new StringSplit();
+//        String s = "banana";
+//        System.out.println(stringSplit.solution(s));
+
+        SmallPartString smallPartString = new SmallPartString();
+        System.out.println(smallPartString.solution("3141592", "271"));
     }
 }
