@@ -17,7 +17,15 @@ public class Main {
 //        String s = "banana";
 //        System.out.println(stringSplit.solution(s));
 
-        SmallPartString smallPartString = new SmallPartString();
-        System.out.println(smallPartString.solution("3141592", "271"));
+//        SmallPartString smallPartString = new SmallPartString();
+//        System.out.println(smallPartString.solution("3141592", "271"));
+
+        HallOfFame hallOfFame = new HallOfFame();
+        int[] scoreArray = {10, 100, 20, 150, 1, 100, 200};
+        int[] arr = hallOfFame.solution(3, scoreArray);
+
+        for(int score : arr) {
+            System.out.print(score + " ");
+        }
     }
 }
