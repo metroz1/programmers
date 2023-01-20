@@ -14,13 +14,16 @@ public class WeaponOfKnight {
 
             for (int j = 1; j * j <= i; j++) {
 
-                if (i % j == 0) {
+                if (j * j == i) {
+                    divNum++;
+                }
+                else if (i % j == 0) {
                     divNum += 2;
 
                 }
 
             }
-            System.out.println("divNum = " + divNum);
+
             if ( divNum > limit)
                 answer += power;
             else
