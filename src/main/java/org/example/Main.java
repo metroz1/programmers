@@ -28,7 +28,11 @@ public class Main {
 //            System.out.print(score + " ");
 //        }
 
-        WeaponOfKnight weaponOfKnight = new WeaponOfKnight();
-        System.out.println(weaponOfKnight.solution(5, 3, 2));
+//        WeaponOfKnight weaponOfKnight = new WeaponOfKnight();
+//        System.out.println(weaponOfKnight.solution(5, 3, 2));
+
+        FruitSeller fruitSeller = new FruitSeller();
+        int[] score = {4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2};
+        System.out.println(fruitSeller.solution(4, 3, score));
     }
 }
