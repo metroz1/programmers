@@ -31,8 +31,20 @@ public class Main {
 //        WeaponOfKnight weaponOfKnight = new WeaponOfKnight();
 //        System.out.println(weaponOfKnight.solution(5, 3, 2));
 
-        FruitSeller fruitSeller = new FruitSeller();
-        int[] score = {4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2};
-        System.out.println(fruitSeller.solution(4, 3, score));
+//        FruitSeller fruitSeller = new FruitSeller();
+//        int[] score = {4, 1, 2, 2, 4, 4, 4, 4, 1, 2, 4, 2};
+//        System.out.println(fruitSeller.solution(4, 3, score));
+
+//        Babbling babbling = new Babbling();
+//
+//        String[] str = {"aya", "yee", "u", "maa", "wyeoo"};
+//
+//        System.out.println(babbling.solution(str));
+
+        SeesawPartner seesawPartner = new SeesawPartner();
+
+        int[] weights = {100, 180, 360, 100, 270};
+
+        System.out.println(seesawPartner.solution(weights));
     }
 }
