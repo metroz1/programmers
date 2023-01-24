@@ -41,10 +41,15 @@ public class Main {
 //
 //        System.out.println(babbling.solution(str));
 
-        SeesawPartner seesawPartner = new SeesawPartner();
+//        SeesawPartner seesawPartner = new SeesawPartner();
+//
+//        int[] weights = {100, 180, 360, 100, 270};
+//
+//        System.out.println(seesawPartner.solution(weights));
 
-        int[] weights = {100, 180, 360, 100, 270};
+        PickTangerine pickTangerine = new PickTangerine();
+        int[] tangerine = {1, 3, 2, 5, 4, 5, 2, 3};
 
-        System.out.println(seesawPartner.solution(weights));
+        System.out.println(pickTangerine.solution(6, tangerine));
     }
 }
