@@ -47,9 +47,12 @@ public class Main {
 //
 //        System.out.println(seesawPartner.solution(weights));
 
-        PickTangerine pickTangerine = new PickTangerine();
-        int[] tangerine = {1, 3, 2, 5, 4, 5, 2, 3};
+//        PickTangerine pickTangerine = new PickTangerine();
+//        int[] tangerine = {1, 3, 2, 5, 4, 5, 2, 3};
+//
+//        System.out.println(pickTangerine.solution(6, tangerine));
 
-        System.out.println(pickTangerine.solution(6, tangerine));
+        NumberOfK numberOfK = new NumberOfK();
+        System.out.println(numberOfK.solution(1, 13, 1));
     }
 }
