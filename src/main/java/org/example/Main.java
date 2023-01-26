@@ -52,7 +52,10 @@ public class Main {
 //
 //        System.out.println(pickTangerine.solution(6, tangerine));
 
-        NumberOfK numberOfK = new NumberOfK();
-        System.out.println(numberOfK.solution(1, 13, 1));
+//        NumberOfK numberOfK = new NumberOfK();
+//        System.out.println(numberOfK.solution(1, 13, 1));
+
+        ChangeNumber changeNumber = new ChangeNumber();
+        System.out.println(changeNumber.solution(10, 40, 30));
     }
 }
