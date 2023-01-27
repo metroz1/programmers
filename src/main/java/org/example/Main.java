@@ -55,7 +55,14 @@ public class Main {
 //        NumberOfK numberOfK = new NumberOfK();
 //        System.out.println(numberOfK.solution(1, 13, 1));
 
-        ChangeNumber changeNumber = new ChangeNumber();
-        System.out.println(changeNumber.solution(10, 40, 30));
+//        ChangeNumber changeNumber = new ChangeNumber();
+//        System.out.println(changeNumber.solution(10, 40, 30));
+
+        LastBigNumber lastBigNumber = new LastBigNumber();
+        int[] numbers = {2, 3, 3, 5};
+        int[] numbers2 = lastBigNumber.solution(numbers);
+
+        for (int num : numbers2)
+            System.out.println(num);
     }
 }
