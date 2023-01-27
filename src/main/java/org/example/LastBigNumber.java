@@ -1,27 +1,29 @@
 package org.example;
 
+import java.util.Stack;
+
 public class LastBigNumber {
 
     public int[] solution(int[] numbers) {
 
         int[] answer = new int[numbers.length];
+        Stack<Integer> stack = new Stack<>();
 
         for (int i = 0; i < numbers.length; i++) {
 
-            if (i == numbers.length - 1) {
-                answer[i] = -1;
-                break;
+            if (stack.isEmpty() || numbers[i] < numbers[i - 1]) {
+                stack.push(i);
             }
-
-            for (int j = i + 1; j < numbers.length; j++) {
-
-                if (numbers[i] < numbers[j]) {
-                    answer[i] = numbers[j];
-                    break;
+            else {
+                while (!stack.isEmpty() && numbers[stack.peek()] < numbers[i]) {
+                    answer[stack.pop()] = numbers[i];
                 }
-                else if (j == numbers.length - 1)
-                    answer[i] = -1;
+                stack.push(i);
             }
+        }
+
+        while (!stack.isEmpty()) {
+            answer[stack.pop()] = -1;
         }
 
         return answer;
