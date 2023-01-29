@@ -58,11 +58,15 @@ public class Main {
 //        ChangeNumber changeNumber = new ChangeNumber();
 //        System.out.println(changeNumber.solution(10, 40, 30));
 
-        LastBigNumber lastBigNumber = new LastBigNumber();
-        int[] numbers = {2, 3, 3, 5};
-        int[] numbers2 = lastBigNumber.solution(numbers);
+//        LastBigNumber lastBigNumber = new LastBigNumber();
+//        int[] numbers = {2, 3, 3, 5};
+//        int[] numbers2 = lastBigNumber.solution(numbers);
+//
+//        for (int num : numbers2)
+//            System.out.println(num);
 
-        for (int num : numbers2)
-            System.out.println(num);
+        FoodFight foodFight = new FoodFight();
+        int[] food = {1, 3, 4, 6};
+        System.out.println(foodFight.solution(food));
     }
 }
