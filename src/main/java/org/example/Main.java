@@ -65,8 +65,12 @@ public class Main {
 //        for (int num : numbers2)
 //            System.out.println(num);
 
-        FoodFight foodFight = new FoodFight();
-        int[] food = {1, 3, 4, 6};
-        System.out.println(foodFight.solution(food));
+//        FoodFight foodFight = new FoodFight();
+//        int[] food = {1, 3, 4, 6};
+//        System.out.println(foodFight.solution(food));
+
+        Babbling2 babbling2 = new Babbling2();
+        String[] strs = {"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"};
+        System.out.println(babbling2.solution(strs));
     }
 }
