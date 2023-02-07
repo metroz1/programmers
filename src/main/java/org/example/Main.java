@@ -73,7 +73,14 @@ public class Main {
 //        String[] strs = {"ayaye", "uuu", "yeye", "yemawoo", "ayaayaa"};
 //        System.out.println(babbling2.solution(strs));
 
-        OurOwnCode ourOwnCode = new OurOwnCode();
-        System.out.println(ourOwnCode.solution("aukks", "wbqd", 5));
+//        OurOwnCode ourOwnCode = new OurOwnCode();
+//        System.out.println(ourOwnCode.solution("aukks", "wbqd", 5));
+
+        MakingHamburgers makingHamburgers = new MakingHamburgers();
+
+        int[] arr = {1, 1, 2, 1, 2, 3, 1, 3, 1, 2, 3, 1};
+        int[] arr2 = {1, 3, 2, 1, 2, 1, 3, 1, 2};
+
+        System.out.println(makingHamburgers.solution(arr));
     }
 }
