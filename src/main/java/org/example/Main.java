@@ -83,9 +83,18 @@ public class Main {
 //
 //        System.out.println(makingHamburgers.solution(arr));
 
-        UnfinishedPlayer unfinishedPlayer = new UnfinishedPlayer();
-        String[] participant = {"leo", "kiki", "eden"};
-        String[] completion = {"eden", "kiki"};
-        System.out.println(unfinishedPlayer.solution(participant, completion));
+//        UnfinishedPlayer unfinishedPlayer = new UnfinishedPlayer();
+//        String[] participant = {"leo", "kiki", "eden"};
+//        String[] completion = {"eden", "kiki"};
+//        System.out.println(unfinishedPlayer.solution(participant, completion));
+
+        String[] idList = {"muzi", "frodo", "apeach", "neo"};
+        String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
+        ReceiveReportResult receiveReportResult = new ReceiveReportResult();
+
+        int[] answer = receiveReportResult.solution(idList, report, 2);
+
+        for (int num : answer)
+            System.out.print(num + " ");
     }
 }
