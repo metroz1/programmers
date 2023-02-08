@@ -76,11 +76,16 @@ public class Main {
 //        OurOwnCode ourOwnCode = new OurOwnCode();
 //        System.out.println(ourOwnCode.solution("aukks", "wbqd", 5));
 
-        MakingHamburgers makingHamburgers = new MakingHamburgers();
+//        MakingHamburgers makingHamburgers = new MakingHamburgers();
+//
+//        int[] arr = {1, 1, 2, 1, 2, 3, 1, 3, 1, 2, 3, 1};
+//        int[] arr2 = {1, 3, 2, 1, 2, 1, 3, 1, 2};
+//
+//        System.out.println(makingHamburgers.solution(arr));
 
-        int[] arr = {1, 1, 2, 1, 2, 3, 1, 3, 1, 2, 3, 1};
-        int[] arr2 = {1, 3, 2, 1, 2, 1, 3, 1, 2};
-
-        System.out.println(makingHamburgers.solution(arr));
+        UnfinishedPlayer unfinishedPlayer = new UnfinishedPlayer();
+        String[] participant = {"leo", "kiki", "eden"};
+        String[] completion = {"eden", "kiki"};
+        System.out.println(unfinishedPlayer.solution(participant, completion));
     }
 }
