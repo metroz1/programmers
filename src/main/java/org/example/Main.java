@@ -88,13 +88,21 @@ public class Main {
 //        String[] completion = {"eden", "kiki"};
 //        System.out.println(unfinishedPlayer.solution(participant, completion));
 
-        String[] idList = {"muzi", "frodo", "apeach", "neo"};
-        String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
-        ReceiveReportResult receiveReportResult = new ReceiveReportResult();
+//        String[] idList = {"muzi", "frodo", "apeach", "neo"};
+//        String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};
+//        ReceiveReportResult receiveReportResult = new ReceiveReportResult();
+//
+//        int[] answer = receiveReportResult.solution(idList, report, 2);
+//
+//        for (int num : answer)
+//            System.out.print(num + " ");
 
-        int[] answer = receiveReportResult.solution(idList, report, 2);
+        String[] cards1 = {"i", "water", "drink"};
+        String[] cards2 = {"want", "to"};
+        String[] goal = {"i", "want", "to", "drink", "water"};
+        BundleOfCards bundleOfCards = new BundleOfCards();
 
-        for (int num : answer)
-            System.out.print(num + " ");
+        System.out.println(bundleOfCards.solution(cards1, cards2, goal));
+
     }
 }
