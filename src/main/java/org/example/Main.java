@@ -97,12 +97,17 @@ public class Main {
 //        for (int num : answer)
 //            System.out.print(num + " ");
 
-        String[] cards1 = {"i", "water", "drink"};
-        String[] cards2 = {"want", "to"};
-        String[] goal = {"i", "want", "to", "drink", "water"};
-        BundleOfCards bundleOfCards = new BundleOfCards();
+//        String[] cards1 = {"i", "water", "drink"};
+//        String[] cards2 = {"want", "to"};
+//        String[] goal = {"i", "want", "to", "drink", "water"};
+//        BundleOfCards bundleOfCards = new BundleOfCards();
+//
+//        System.out.println(bundleOfCards.solution(cards1, cards2, goal));
 
-        System.out.println(bundleOfCards.solution(cards1, cards2, goal));
+        String p = "()))((()";
+        ParenthesesConversion parenthesesConversion = new ParenthesesConversion();
+
+        System.out.println(parenthesesConversion.solution(p));
 
     }
 }
