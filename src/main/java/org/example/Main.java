@@ -1,5 +1,9 @@
 package org.example;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.IntStream;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -104,10 +108,116 @@ public class Main {
 //
 //        System.out.println(bundleOfCards.solution(cards1, cards2, goal));
 
-        String p = "()))((()";
-        ParenthesesConversion parenthesesConversion = new ParenthesesConversion();
+//        String p = "()))((()";
+//        ParenthesesConversion parenthesesConversion = new ParenthesesConversion();
+//
+//        System.out.println(parenthesesConversion.solution(p));
 
-        System.out.println(parenthesesConversion.solution(p));
+//        RunningCom runningCom = new RunningCom();
+//
+//        String[] players = {"mumu", "soe", "poe", "kai", "mine"};
+//        String[] callings = {"kai", "kai", "mine", "mine"};
+//        String[] result = runningCom.solution(players, callings);
+//
+//        for (String str : result) {
+//
+//            System.out.println(str);
+//        }
 
+//        String[][] park = {
+//                {"S", "O", "O"},
+//                {"O", "O", "O"},
+//                {"O", "O", "O"}};
+//
+//        String[] routes = {"E 2", "S 2", "W 1"};
+//
+//        int[] startIndex = new int[2];
+//
+//        for (int i = 0; i < park.length; i++) {
+//            for (int j = 0; j < park[i].length; j++) {
+//                if (park[i][j].equals("S")) {
+//                    startIndex[0] = i;
+//                    startIndex[1] = j;
+//                }
+//            }
+//        }
+//
+//        for (int i = 0; i < routes.length; i++) {
+//
+//        }
+//
+//        String s = "abcdef";
+//
+//        CharOfCenter charOfCenter = new CharOfCenter();
+//        System.out.println(charOfCenter.solution(s));
+
+//        String str = "pPoooyY";
+//
+//        CheckString checkString = new CheckString();
+//        System.out.println(checkString.solution(str));
+//
+//        String[] survey = {"AN", "CF", "MJ", "RT", "NA"};
+//        int[] choices = {5, 3, 2, 7, 5};
+//
+//        KaKao2022 kaKao2022 = new KaKao2022();
+//        System.out.println(kaKao2022.solution(survey, choices));
+
+//        CoupleNumber coupleNumber = new CoupleNumber();
+//        System.out.println(coupleNumber.solution("3403", "13203"));
+
+//        Trio trio = new Trio();
+//
+//        int[] ints = {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0};
+//        System.out.println(trio.solution(ints));
+//
+//        ColaProblem colaProblem = new ColaProblem();
+//
+//        System.out.println(colaProblem.solution(2, 1, 20));
+
+//        NearestWord nearestWord = new NearestWord();
+//
+//        System.out.println(Arrays.toString(nearestWord.solution("banana")));
+
+//        String[] keymap = {"BC", "CDB"};
+//        String[] target = {"BB"};
+//
+//        RandomKeymap randomKeymap = new RandomKeymap();
+//
+//        int[] arr = randomKeymap.solution(keymap, target);
+//
+//        for (int n : arr) {
+//            System.out.print(n + " ");
+
+//        Painting painting = new Painting();
+//        int[] arr = {1, 3};
+//
+//        System.out.println(painting.solution(5, 4, arr));
+
+//        DesktopCleanUp desktopCleanUp = new DesktopCleanUp();
+//
+//        String[] strings = {"..........", ".....#....", "......##..", "...##.....", "....#....."};
+//        System.out.println(Arrays.toString(desktopCleanUp.solution(strings)));
+//
+//        WalkInThePark walkInThePark = new WalkInThePark();
+//
+//        String[] park = {"OSO","OOO","OOO","OOO"};
+//        String[] routes = {"W 2"};
+//
+//        System.out.println(Arrays.toString(walkInThePark.solution(park, routes)));
+
+//        MemoryScore memoryScore = new MemoryScore();
+//        String[] name = {"may", "kein", "kain", "radi"};
+//        int [] yearning = {5, 10, 1, 3};
+//        String[][] photo = {{"may", "kein", "kain", "radi"}, {"may", "kein", "brin", "deny"}, {"kon", "kain", "may", "coni"}};
+//
+//        System.out.println(Arrays.toString(memoryScore.solution(name, yearning, photo)));
+
+        String[] players = {"mumu", "soe", "poe", "kai", "mine"};
+        String[] callings = {"kai", "kai", "mine", "mine"};
+
+        RunningCom runningCom = new RunningCom();
+
+        System.out.println(Arrays.toString(runningCom.solution(players, callings)));
     }
+
 }
