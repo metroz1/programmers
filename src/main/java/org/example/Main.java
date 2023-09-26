@@ -229,11 +229,24 @@ public class Main {
 //
 //        System.out.println(rectangleNumber.solution(board));
 
-        String s = "())()";
+//        String s = "())()";
+//
+//        CorrectParentheses correctParentheses = new CorrectParentheses();
+//
+////        System.out.println(correctParentheses.solution(s));
+//
+//        NextBigNumber nextBigNumber = new NextBigNumber();
+//
+//        System.out.println(nextBigNumber.solution(78));
 
-        CorrectParentheses correctParentheses = new CorrectParentheses();
+//        PickingTheGround pickingTheGround = new PickingTheGround();
+//
+//        int[][] land = {{1, 2, 3, 5}, {5, 6, 7, 8}, {4, 3, 2, 1}};
+//        System.out.println(pickingTheGround.solution(land));
 
-        System.out.println(correctParentheses.solution(s));
+        LongJump longJump = new LongJump();
+
+        System.out.println(longJump.solution(500));
     }
 
 }
