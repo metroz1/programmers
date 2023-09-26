@@ -1,9 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.IntStream;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -212,12 +208,32 @@ public class Main {
 //
 //        System.out.println(Arrays.toString(memoryScore.solution(name, yearning, photo)));
 
-        String[] players = {"mumu", "soe", "poe", "kai", "mine"};
-        String[] callings = {"kai", "kai", "mine", "mine"};
+//        String[] players = {"mumu", "soe", "poe", "kai", "mine"};
+//        String[] callings = {"kai", "kai", "mine", "mine"};
+//
+//        RunningCom runningCom = new RunningCom();
+//
+//        System.out.println(Arrays.toString(runningCom.solution(players, callings)));
 
-        RunningCom runningCom = new RunningCom();
+//        NumberConverter numberConverter = new NumberConverter();
+//
+//        System.out.println(numberConverter.minOperations(10, 40, 5));
 
-        System.out.println(Arrays.toString(runningCom.solution(players, callings)));
+//        int[][] board = {
+//                {0, 1, 1, 1},
+//                {1, 1, 1, 1},
+//                {1, 1, 1, 1},
+//                {0, 0, 1, 0}};
+//
+//        RectangleNumber rectangleNumber = new RectangleNumber();
+//
+//        System.out.println(rectangleNumber.solution(board));
+
+        String s = "())()";
+
+        CorrectParentheses correctParentheses = new CorrectParentheses();
+
+        System.out.println(correctParentheses.solution(s));
     }
 
 }
