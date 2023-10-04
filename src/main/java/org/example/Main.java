@@ -244,9 +244,45 @@ public class Main {
 //        int[][] land = {{1, 2, 3, 5}, {5, 6, 7, 8}, {4, 3, 2, 1}};
 //        System.out.println(pickingTheGround.solution(land));
 
-        LongJump longJump = new LongJump();
+//        LongJump longJump = new LongJump();
+//
+//        System.out.println(longJump.solution(500));
 
-        System.out.println(longJump.solution(500));
+//        NumberBlock numberBlock = new NumberBlock();
+//
+//        int[] result = numberBlock.solution(10, 10);
+//
+//        for (int n : result)
+//            System.out.println(n);
+
+
+
+//        MinimumValue minimumValue = new MinimumValue();
+//
+//        int[] a = {1, 4, 2};
+//        int[] b = {5, 4, 4};
+//
+//        System.out.println(minimumValue.solution(a, b));
+
+//        FibonacciNumber fibonacciNumber = new FibonacciNumber();
+//
+//        System.out.println(fibonacciNumber.solution(5));
+
+        int[][] arr1 = {{2, 3, 2}, {4, 2, 4}, {3, 1, 4}};
+        int[][] arr2 = {{5, 4, 3}, {2, 4, 1}, {3, 1, 1}};
+
+        MatrixMultiplication matrixMultiplication = new MatrixMultiplication();
+
+        int[][] result = matrixMultiplication.solution(arr1, arr2);
+
+        for (int[] arr : result) {
+
+            for (int e : arr) {
+
+                System.out.print(e + " ");
+            }
+            System.out.println();
+        }
     }
 
 }
