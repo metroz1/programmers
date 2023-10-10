@@ -268,21 +268,92 @@ public class Main {
 //
 //        System.out.println(fibonacciNumber.solution(5));
 
-        int[][] arr1 = {{2, 3, 2}, {4, 2, 4}, {3, 1, 4}};
-        int[][] arr2 = {{5, 4, 3}, {2, 4, 1}, {3, 1, 1}};
+//        int[][] arr2 = {{5, 4, 3}, {2, 4, 1}, {3, 1, 1}};
+//        int[][] arr1 = {{2, 3, 2}, {4, 2, 4}, {3, 1, 4}};
+//
+//        MatrixMultiplication matrixMultiplication = new MatrixMultiplication();
+//
+//        int[][] result = matrixMultiplication.solution(arr1, arr2);
+//
+//        for (int[] arr : result) {
+//
+//            for (int e : arr) {
+//
+//                System.out.print(e + " ");
+//            }
+//            System.out.println();
+//        }
 
-        MatrixMultiplication matrixMultiplication = new MatrixMultiplication();
+//        String s = "3people unFollowed me";
+//
+//        JadenCase jadenCase = new JadenCase();
+//        System.out.println(jadenCase.solution(s));
 
-        int[][] result = matrixMultiplication.solution(arr1, arr2);
+//        TowerOfHanoi towerOfHanoi = new TowerOfHanoi();
+//
+//        int[][] result = towerOfHanoi.solution(3);
+//
+//        for (int[] arr : result) {
+//            for (int e : arr) {
+//                System.out.print(e + " ");
+//            }
+//            System.out.println();
+//        }
+
+//        IntegerTriangle integerTriangle = new IntegerTriangle();
+//
+//        int[][] arr = {{7}, {3, 8}, {8, 1, 0}, {2, 7, 4, 4}, {4, 5, 2, 6, 5}};
+//        System.out.println(integerTriangle.solution(arr));
+
+//        RemovePairing removePairing = new RemovePairing();
+//
+//
+//        System.out.println(removePairing.solution("baabaa"));
+
+//        QuadCompression quadCompression = new QuadCompression();
+//
+//        int[][] nums = {{1, 1, 0, 0}, {1, 0, 0, 0}, {1, 0, 0, 1}, {1, 1, 1, 1}};
+//        int[] arr = quadCompression.solution(nums);
+//
+//        for(int n : arr)
+//            System.out.println(n);
+
+//        SkillTestLevel2 skillTestLevel2 = new SkillTestLevel2();
+//
+////        int[] arr = {0, 0, 0, 0};
+////        System.out.println(skillTestLevel2.solution(arr));
+//
+//        int[] enemy = {4, 2, 4, 5, 3, 3, 1};
+//        System.out.println(skillTestLevel2.solution(7, 3, enemy));
+
+//        TaxiFare taxiFare = new TaxiFare();
+//
+//        int[][] fares = {
+//                {4, 1, 10},
+//                {3, 5, 24},
+//                {5, 6, 2},
+//                {3, 1, 41},
+//                {5, 1, 24},
+//                {4, 6, 50},
+//                {2, 4, 66},
+//                {2, 3, 22},
+//                {1, 6, 25}};
+//
+//        System.out.println(taxiFare.solution(6, 4, 6, 2, fares));
+
+        DirectionsGame directionsGame = new DirectionsGame();
+
+        int[][] nodeInfo = {{5, 3}, {11, 5}, {13, 3}, {3, 5}, {6, 1}, {1, 3}, {8, 6}, {7, 2}, {2, 2}};
+
+        int[][] result = directionsGame.solution(nodeInfo);
 
         for (int[] arr : result) {
-
-            for (int e : arr) {
-
-                System.out.print(e + " ");
+            for (int n : arr) {
+                System.out.print(n + " ");
             }
             System.out.println();
         }
     }
+
 
 }
