@@ -341,18 +341,32 @@ public class Main {
 //
 //        System.out.println(taxiFare.solution(6, 4, 6, 2, fares));
 
-        DirectionsGame directionsGame = new DirectionsGame();
+//        DirectionsGame directionsGame = new DirectionsGame();
+//
+//        int[][] nodeInfo = {{5, 3}, {11, 5}, {13, 3}, {3, 5}, {6, 1}, {1, 3}, {8, 6}, {7, 2}, {2, 2}};
+//
+//        int[][] result = directionsGame.solution(nodeInfo);
+//
+//        for (int[] arr : result) {
+//            for (int n : arr) {
+//                System.out.print(n + " ");
+//            }
+//            System.out.println();
+//        }
 
-        int[][] nodeInfo = {{5, 3}, {11, 5}, {13, 3}, {3, 5}, {6, 1}, {1, 3}, {8, 6}, {7, 2}, {2, 2}};
+//        DoublePriorityQueue doublePriorityQueue = new DoublePriorityQueue();
+//        String[] arr = {"I -45", "I 653", "D 1", "I -642", "I 45", "I 97", "D 1", "D -1", "I 333"};
+//
+//        int[] result = doublePriorityQueue.solution(arr);
+//
+//        for (int n : result)
+//            System.out.println(n);
 
-        int[][] result = directionsGame.solution(nodeInfo);
+        int[][] results = {{4, 3}, {4, 2}, {3, 2}, {1, 2}, {2, 5}};
 
-        for (int[] arr : result) {
-            for (int n : arr) {
-                System.out.print(n + " ");
-            }
-            System.out.println();
-        }
+        Rank rank = new Rank();
+
+        System.out.println(rank.solution(5, results));
     }
 
 
