@@ -362,11 +362,32 @@ public class Main {
 //        for (int n : result)
 //            System.out.println(n);
 
-        int[][] results = {{4, 3}, {4, 2}, {3, 2}, {1, 2}, {2, 5}};
+//        int[][] results = {{4, 3}, {4, 2}, {3, 2}, {1, 2}, {2, 5}};
+//
+//        Rank rank = new Rank();
+//
+//        System.out.println(rank.solution(5, results));
 
-        Rank rank = new Rank();
+//        int[] info = {0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1};
+//        int[][] edges = {{0, 1}, {1, 2}, {1, 4}, {0, 8}, {8, 7}, {9, 10}, {4, 3}, {6, 5}, {4, 6}, {8, 9}};
+//
+//        SheepAndWolf sheepAndWolf = new SheepAndWolf();
+//        System.out.println(sheepAndWolf.solution(info, edges));
 
-        System.out.println(rank.solution(5, results));
+//        Parallel parallel = new Parallel();
+//
+//        int[][] dots = {{1, 4}, {9, 2}, {3, 8}, {11, 6}};
+//        System.out.println(parallel.solution(dots));
+
+        Shiritori shiritori = new Shiritori();
+
+        String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"};
+        String[] words2 = {"hello", "observe", "effect", "take", "either", "recognize", "encourage", "ensure", "establish", "hang", "gather", "refer", "reference", "estimate", "executive"};
+        String[] words3 = {"hello", "one", "even", "never", "now", "world", "draw"};
+        int[] result = shiritori.solution(2, words3);
+
+        for (int n : result)
+            System.out.println(n);
     }
 
 
