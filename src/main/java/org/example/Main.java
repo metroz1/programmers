@@ -379,15 +379,61 @@ public class Main {
 //        int[][] dots = {{1, 4}, {9, 2}, {3, 8}, {11, 6}};
 //        System.out.println(parallel.solution(dots));
 
-        Shiritori shiritori = new Shiritori();
+//        Shiritori shiritori = new Shiritori();
+//
+//        String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"};
+//        String[] words2 = {"hello", "observe", "effect", "take", "either", "recognize", "encourage", "ensure", "establish", "hang", "gather", "refer", "reference", "estimate", "executive"};
+//        String[] words3 = {"hello", "one", "even", "never", "now", "world", "draw"};
+//        int[] result = shiritori.solution(2, words3);
+//
+//        for (int n : result)
+//            System.out.println(n);
 
-        String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"};
-        String[] words2 = {"hello", "observe", "effect", "take", "either", "recognize", "encourage", "ensure", "establish", "hang", "gather", "refer", "reference", "estimate", "executive"};
-        String[] words3 = {"hello", "one", "even", "never", "now", "world", "draw"};
-        int[] result = shiritori.solution(2, words3);
+//        DiceGame3 diceGame3 = new DiceGame3();
+//
+//        System.out.println(diceGame3.solution(5, 4, 6, 6));
 
-        for (int n : result)
-            System.out.println(n);
+//        ConvertCase convertCase = new ConvertCase();
+//
+//        System.out.println(convertCase.solution("aBcWDDEf"));
+
+//        String s = "abcde";
+//
+//        for (int i = 0; i < s.length(); i++) {
+//            System.out.println(s.charAt(i));
+//        }
+//
+//        String s1 = "He11pWpr1d";
+//        String s2 = "lloWorl";
+//        int n = 2;
+//        char[] arr = s1.toCharArray();
+//
+//        for (int i = 0; i < s2.length(); i++) {
+//
+//            arr[i + n] = s2.charAt(i);
+//        }
+//
+//        System.out.println(String.copyValueOf(arr));
+
+//        SumOfSuccessiveSequences sumOfSuccessiveSequences = new SumOfSuccessiveSequences();
+//        int[] sequence = {2, 2, 2, 2, 2};
+//        int[] result = sumOfSuccessiveSequences.solution(sequence, 6);
+//
+//        for (int n : result)
+//            System.out.println(n);
+
+//        Change change = new Change();
+//
+//        int[] money = {1, 2, 5};
+//
+//        System.out.println(change.solution(5, money));
+
+        MineralDigging mineralDigging = new MineralDigging();
+
+        String[] minerals = {"diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"};
+        int[] picks = {1, 3, 2};
+
+        System.out.println(mineralDigging.solution(picks, minerals));
     }
 
 
